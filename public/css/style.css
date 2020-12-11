@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Flamenco:wght@300;400&display=swap');
+
+html{
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+  background-color: #FFF;
+  color: #000;
+  line-height: 1.5;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  font-family: Asap, sans-serif;
+  font-size: 1.2rem;
+}
+
+h1, h2, h3, h4, h5, h6{
+  margin: 0;
+  padding: 0;
+  font-family: Flamenco, sans-serif ;
+}
+
+.videoHeader{
+  display: flex;
+  height: 100vh;
+  color: #fff;
+}
+
+.container{
+  margin: auto;
+  max-width: 1200px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: center;
+}
+
+.videoWrapper{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.videoWrapper video{
+  min-width: 100%;
+  width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+}
+
+.header-overlay{
+  background: #225470;
+  height: 100vh;
+  width: 100vw;
+  opacity: 0.55;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.brandLogo{
+  z-index: 2;
+  width: ;
+  /*! border: 1px solid black; */
+  justify-content: start;
+  display: flex;
+}
+
+.brandLogo img{
+  width: 40%;
+  margin-top: 1rem;
+}
+
+.mainNav{
+  position: relative;
+  z-index: 2;
+  justify-content: flex-end;
+  display: flex;
+  /*! border: 1px solid black; */
+  flex-grow: 1;
+  height: 86.4px;
+  align-items: center;
+  }
+
+
+.mainNav ul{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  justify-content: flex-end;
+}
+
+.mainNav a{
+  color: inherit;
+  text-decoration: none;
+}
+
+.mainNav a:hover{
+  color: #adadad;
+}
+
+.mainNav h2 {
+  padding: 1rem;
+  font-size: 1em;
+}
+
+.tresStudiosHeader{
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.tresStudiosHeader h1{
+  width: 100%;
+}
+
+.mainHeader{
+  display: flex;
+  height: 100vh;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/*****Styling for the animated arrows*****/
+
+.box{
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%.-50%);
+}
+
+.box span{
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin: -10px;
+  border-bottom: 1px solid #fff;
+  border-right: 1px solid #fff;
+  transform: rotate(45deg);
+  animation: animate 2s infinite;
+}
+
+  .box span:nth-child(2){
+    animation-delay: -0.2s;
+  }
+
+  .box span:nth-child(3){
+    animation-delay: -0.4s;
+  }
+
+
+@keyframes animate {
+  0%{
+    opacity: 0;
+    transform: rotate(45deg) translate(-20px,-20px);
+  }
+  50%{
+    opacity: 1;
+  }
+
+
+/*Styling of the second section*/
+/*
+.secondSection{
+  background: #FFF;
+  height: 100vh;
+  width: 100vw;
+}
+
+.secondSectionContainer{
+  display: flex;
+  justify-content: center;
+  margin-left: -80px;
+}
+
+.secondSection h1{
+  color: #000;
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  justify-content: center;
+  width: 100%;
+  font-size: 2rem;
+}
+
+.consulting, .development, .creative{
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-left: 4rem;
+  height: 550px;
+  width: 333px;
+ }
+
+ .consulting img, .development img, .creative img{
+   width: 100%;
+ }
+
+ .consulting h2, .development h2, .creative h2{
+   font-size: 1.5rem;
+   letter-spacing: 0.2rem;
+   text-align: center;
+ } */
+
+/* .thirdSection{
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.thirdSection h1{
+  align-items: center;
+  font-size: 4rem;
+  text-transform: uppercase;
+  z-index: 2;
+}
+
+.verticalHeaderContact{
+  transform: rotate(-90deg);
+}
+
+.verticalHeaderTres{
+    transform: rotate(90deg);
+}
+
+.thirdSection img{
+  position: absolute;
+  left: 320px;
+  margin-top: 0.5rem;
+  width: 50%;
+} */
+footer{
+  background: red;
+}
