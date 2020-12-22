@@ -24,6 +24,17 @@ h1, h2, h3, h4, h5, h6{
   font-family: Flamenco, sans-serif ;
 }
 
+.cursor{
+  border: 2px solid black;
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
 .videoHeader{
   display: flex;
   height: 100vh;
