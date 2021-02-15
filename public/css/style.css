@@ -33,8 +33,18 @@ h1, h2, h3, h4, h5, h6{
   height: 5rem;
   position: absolute;
   pointer-events: none;
-  transform: translate(-50%, -50%);
   z-index: 2;
+  animation: rotate-animation 10s infinite linear;
+}
+
+.cursor span{
+  position: absolute;
+  transform-origin: top left;
+}
+
+@keyframes rotate-animation {
+  from {transform: translate(-50%,-50%) rotate(0); }
+  to {transform: translate(-50%,-50%) rotate(360deg); }
 }
 
 .videoHeader{
