@@ -2,7 +2,7 @@ const degreeToRadian = (angle) => {
   return angle * (Math.PI / 180);
 };
 
-const radius = 50;
+const radius = 70;
 const diameter = radius * 2;
 
 const circle = document.querySelector("#circle");
@@ -13,7 +13,7 @@ const text = circle.dataset.text;
 const characters = text.split("");
 
 const deltaAngle = 360 / characters.length;
-const characterOffsetAngle = 10;
+const characterOffsetAngle = 8;
 let currentAngle = -90;
 
 characters.forEach((character, index) => {
