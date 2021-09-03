@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Asap&family=Flamenco:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Flamenco:wght@300;400&family=Roboto&display=swap');
+
 
 html{
   box-sizing: border-box;
@@ -10,26 +11,23 @@ html{
 body{
   background-color: #FFF;
   color: #000;
-  cursor: none;
   line-height: 1.5;
   overflow-x: hidden;
   padding: 0;
   margin: 0;
-  font-family: Asap, sans-serif;
   font-size: 1.2rem;
 }
 
 
-
 h1, h2, h3, h4, h5, h6{
+  font-family: 'Roboto', cursive;
   margin: 0;
   padding: 0;
-  font-family: Flamenco, sans-serif ;
 }
 
 
 
-.cursor{
+/* .cursor{
   background-color: rgba(0, 0, 0, 0.5);
   border: 2px solid black;
   border-radius: 50%;
@@ -40,17 +38,17 @@ h1, h2, h3, h4, h5, h6{
   pointer-events: none;
   z-index: 2;
   animation: rotate-animation 10s infinite linear;
-}
+} */
 
-.cursor span{
+/* .cursor span{
   position: absolute;
   transform-origin: top left;
-}
+} */
 
-@keyframes rotate-animation {
+/* @keyframes rotate-animation {
   from {transform: translate(-55%,-55%) rotate(0); }
   to {transform: translate(-55%,-55%) rotate(360deg); }
-}
+} */
 
 .videoHeader{
   display: flex;
@@ -96,7 +94,6 @@ h1, h2, h3, h4, h5, h6{
 .brandLogo{
   z-index: 2;
   width: ;
-  /*! border: 1px solid black; */
   justify-content: start;
   display: flex;
 }
@@ -105,6 +102,7 @@ h1, h2, h3, h4, h5, h6{
   width: 40%;
   margin-top: 1rem;
 }
+
 
 .mainNav{
   position: relative;
@@ -143,6 +141,7 @@ h1, h2, h3, h4, h5, h6{
 .tresStudiosHeader{
   display: flex;
   position: absolute;
+  font-size: 0.5em;
   top: 50%;
   left: 0;
   width: 100%;
@@ -150,6 +149,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .tresStudiosHeader h1{
+  font-family: 'Flamenco';
   width: 100%;
 }
 
@@ -199,12 +199,13 @@ h1, h2, h3, h4, h5, h6{
   }
 
 
+
 /*Styling of the second section*/
-/*
+
 .secondSection{
-  background: #FFF;
-  height: 100vh;
-  width: 100vw;
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
 }
 
 .secondSectionContainer{
