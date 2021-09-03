@@ -12,7 +12,7 @@ body {
 	font-family: 'Source Sans Pro', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	min-height: 100vh;
 	color: #57585c;
-	color: var(--color-text);	
+	color: var(--color-text);
 	background-color: #fff;
 	background-color: var(--color-bg);
 	-webkit-font-smoothing: antialiased;
@@ -166,7 +166,7 @@ body {
 /* Fade effect */
 .js body {
 	opacity: 0;
-	transition: opacity 0.3s;		
+	transition: opacity 0.3s;
 }
 
 .js body.render {
@@ -405,7 +405,7 @@ a.demo--current {
 }
 
 .global-menu__item:hover {
-	color: var(--color-menu-hover);
+	/* color: var(--color-menu-hover); */
 }
 
 .global-menu__item.is-opened {

@@ -26,7 +26,6 @@ h1, h2, h3, h4, h5, h6{
 }
 
 
-
 /* .cursor{
   background-color: rgba(0, 0, 0, 0.5);
   border: 2px solid black;
@@ -160,6 +159,9 @@ h1, h2, h3, h4, h5, h6{
   align-items: flex-start;
 }
 
+.oye{
+  display: none;
+}
 /*****Styling for the animated arrows*****/
 
 .box{
@@ -188,6 +190,40 @@ h1, h2, h3, h4, h5, h6{
     animation-delay: -0.4s;
   }
 
+  .global-menu{
+   background-image: url("../public/images/palmTreeStreets.jpg");
+  }
+
+
+  .global-menu__wrap{
+      width: 100%;
+  }
+
+  .global-menu__wrap p{
+    font-size: 1em;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    width: 50%;
+  }
+
+.global-menu__wrap button{
+    border: none;
+    border-radius: 5px;
+    margin: auto;
+  }
+
+.layerDesign{
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: auto;
+
+}
+
 
 @keyframes animate {
   0%{
@@ -200,9 +236,9 @@ h1, h2, h3, h4, h5, h6{
 
 
 
-/*Styling of the second section*/
+/* Styling of the second section*/
 
-.secondSection{
+/*.secondSection{
   background-color: #fff;
   height: 100%;
   width: 100%;
@@ -269,6 +305,3 @@ h1, h2, h3, h4, h5, h6{
   margin-top: 0.5rem;
   width: 50%;
 } */
-footer{
-  background: red;
-}
