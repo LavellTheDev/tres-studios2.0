@@ -215,13 +215,12 @@ h1, h2, h3, h4, h5, h6{
   }
 
 .layerDesign{
-    margin: 0;
+    margin: 0 !important;
     position: absolute;
     top: 0;
     left: 0;
     height: 100vh;
     width: auto;
-
 }
 
 
