@@ -223,6 +223,17 @@ h1, h2, h3, h4, h5, h6{
     width: auto;
 }
 
+#infoLinks{
+  display: flex;
+  justify-content: center;
+  font-size: 1.5em;
+  list-style-type: none;
+  margin-bottom: 50px;
+}
+
+#infoLinks li{
+  padding-right: 1em;
+}
 
 @keyframes animate {
   0%{
