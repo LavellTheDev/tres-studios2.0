@@ -25,12 +25,16 @@ h1, h2, h3, h4, h5, h6{
   padding: 0;
 }
 
+#tools{
+  max-height: 100%;
+  width: 100%;
+}
 
 #tools li, #ourLovelyClients li{ /*Switch this for grid*/
   border: 1px solid black;
   display: inline-block;
-  height: 50px;
-  width: 150px;
+  height: 100px;
+  width: 200px;
 }
 
 .toolsIcon{
