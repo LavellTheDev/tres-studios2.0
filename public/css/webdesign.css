@@ -4,6 +4,7 @@
 html{
   box-sizing: border-box;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -25,9 +26,12 @@ h1, h2, h3, h4, h5, h6{
   padding: 0;
 }
 
+.topbar{
+
+}
+
 #tools{
-  max-height: 100%;
-  width: 100%;
+  height: 100vh;
 }
 
 #tools li, #ourLovelyClients li{ /*Switch this for grid*/
@@ -40,6 +44,10 @@ h1, h2, h3, h4, h5, h6{
 .toolsIcon{
   height: 100%;
   width: 40%;
+}
+
+.wrapper{
+  height: 100%;
 }
 
 button{
