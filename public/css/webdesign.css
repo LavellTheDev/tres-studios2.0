@@ -30,25 +30,31 @@ h1, h2, h3, h4, h5, h6{
 
 }
 
+#wrapper{
+  height: 100%;
+}
+
 #tools{
-  height: 100vh;
+  background-color: red;
 }
 
 #tools li, #ourLovelyClients li{ /*Switch this for grid*/
   border: 1px solid black;
   display: inline-block;
-  height: 100px;
+  height: auto;
   width: 200px;
 }
 
 .toolsIcon{
-  height: 100%;
-  width: 40%;
+  height: auto;
+  width: 50%;
 }
 
-.wrapper{
-  height: 100%;
+#weDabest{
+  background-color: aqua;
+  height: 100vh;
 }
+
 
 button{
   background-color: grey;
