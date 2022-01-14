@@ -29,12 +29,13 @@ h1, h2, h3, h4, h5, h6{
 .topbar{
  overflow: hidden;
  position: relative;
- background-color: #111;
+ width: 100%;
+ background-color: rgb(27, 65, 189);
 } 
 
 .text{
   position: relative;
-  transform: skewY(345deg) translateY(-20px);
+  transform: skewY(345deg) translateY(-25px);
   animation: animateColor 5s linear infinite;
 }
 
@@ -52,11 +53,13 @@ h1, h2, h3, h4, h5, h6{
 .text h2{
   position: relative;
   width: 100%;
-  font-size: 1.5em;
+  font-size: 2.5rem;
   color: #FFF;
   pointer-events: none;
   line-height: 1em;
   white-space: nowrap;
+  text-shadow: calc(var(--x)) 20px 0 rgba(255, 255, 255,0.1);
+  transform: translateX(calc(0% - var(--x) * var(--i)));
 }
 
 .text h2 span{
